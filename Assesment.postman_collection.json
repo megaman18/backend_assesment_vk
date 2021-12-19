@@ -1,0 +1,222 @@
+{
+	"info": {
+		"_postman_id": "00f1e1ee-a8ea-4319-bcfb-e79819f37b3a",
+		"name": "Assesment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "getAllUser",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/tenant/get",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"tenant",
+								"get"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getUserByID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/tenant/get/123",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"tenant",
+								"get",
+								"123"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addUser",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/user/add",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"user",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateUser",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n}"
+						},
+						"url": {
+							"raw": "{{url}}/api/tenant/update/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"tenant",
+								"update",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteUser",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/tenant/delete/123",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"tenant",
+								"delete",
+								"123"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tenants",
+			"item": []
+		},
+		{
+			"name": "getAllTenant",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/tenant/get",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"tenant",
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getTenantByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/tenant/get/123",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"tenant",
+						"get",
+						"123"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Tenant",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/tenant/add",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"tenant",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateTenant",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "{{url}}/api/tenant/update/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"tenant",
+						"update",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteTenant",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/tenant/delete/123",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"tenant",
+						"delete",
+						"123"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
